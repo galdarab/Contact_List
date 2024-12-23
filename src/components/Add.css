@@ -1,0 +1,38 @@
+#add{
+    background-color: rgb(39, 110, 225);
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+
+#add label{
+    padding: 10px;
+}
+
+#add input[type]{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#add input[type]:valid{
+  background-color: white;
+}
+
+#add input[type]:invalid{
+    background-color: rgb(64, 234, 64);
+  }
+
+#add input[type='button']{
+    color: navy;
+    margin-left: 30px;
+    padding: 5px;
+    font-weight: bold;
+}
+.sortB{
+    color: navy;
+    border: 2px solid navy;
+    border-radius: 4px;
+    font-size: 11px;    
+}
